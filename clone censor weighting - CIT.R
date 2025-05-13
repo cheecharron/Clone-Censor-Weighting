@@ -82,9 +82,9 @@ for (dataset in c('early','late','never')) {
   df$IPW_denom = with(df, ifelse(censor==1, 1-value, 
                                  ifelse(censor==0,value,NA)))
   
-  ############################################################################
-  # need to generate integrated Brier score for training and validation sets #
-  ############################################################################
+  #######################################################################
+  # need to generate Brier skill score for training and validation sets #
+  #######################################################################
   
   ## FIRST TRAINING ##
   tic('Brier - training')
