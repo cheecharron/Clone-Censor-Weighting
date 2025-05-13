@@ -1,5 +1,9 @@
 # Clone-Censor-Weighting
-Application of clone censor weighting to longitudinal data for timing-of-exposures analyses
+# Conditional Inference Trees
+# Brier Skill Scores
+
+Application of clone censor weighting to longitudinal data for timing-of-exposures analyses.
+
 
 The 'simulate data.R' file can be used to simulate longitudinal data that contains data on 10,000
 pseudo-patients, with 24 months of monthly data on time-varying weight-loss medication (WLM), 
